@@ -1,9 +1,9 @@
 --ENGINEERING--
-    -- lead --
+    -- Lead Engineer --
         -- Sallah --
-    -- junior engineer --
+    -- Junior Engineer --
         -- Henry Jones (junior) --
-    -- team manager --
+    -- Team Manager/Moral Support --
         -- Henry Jones (senior) --
 -- MARKETING --
     -- Head Salesman --
@@ -24,3 +24,38 @@
         -- Alex Mason --
     -- Trash Man --
         -- Elon Musk --
+
+INSERT INTO department (name)
+    VALUES
+    ('ENGINEERING'),
+    ('MARKETING'),
+    ('HUMAN RESOURCES'),
+    ('FINANCES'),
+
+INSERT INTO roles (name)
+    VALUES
+    ('Lead Engineer'),
+    ('Junior Engineer'),
+    ('Team Manager/Moral Support'),
+    ('Head Salesman'),
+    ('Salesman'),
+    ('Marketing Manager'),
+    ('HR Head'),
+    ('HR Rep'),
+    ('CFO'),
+    ('Accountant'),
+    ('Trash Man'),
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES
+('Sallah', 'Shabati'),
+('Henry', 'Jones Jr.' ),
+('Henry', 'Jones senior'),
+('Donnie', 'Azof'),
+('Chester', 'Ming'),
+('Jordan', 'Belfort'),
+('Gerald', 'Lambeau'),
+('Sean', 'Maguire'),
+('Warren', 'Buffet'),
+('Alex', 'Mason'),
+('Elon', 'Musk'),
