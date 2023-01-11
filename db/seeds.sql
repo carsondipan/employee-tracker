@@ -1,0 +1,26 @@
+--ENGINEERING--
+    -- lead --
+        -- Sallah --
+    -- junior engineer --
+        -- Henry Jones (junior) --
+    -- team manager --
+        -- Henry Jones (senior) --
+-- MARKETING --
+    -- Head Salesman --
+        -- Donnie Azof --
+    -- Salesman --
+        -- Chester Ming --
+    -- Marketing Manager
+        -- Jordan Belfort --
+-- HUMAN RESOURCES --
+    -- HR Head --
+        -- Gerald Lambeau --
+    -- HR Rep --
+        -- Sean Maguire --
+-- FINANCES --
+    -- CFO --
+        -- Warren Buffet --
+    -- Accountant --
+        -- Alex Mason --
+    -- Trash Man --
+        -- Elon Musk --
