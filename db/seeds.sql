@@ -34,7 +34,7 @@ INSERT INTO department (name)
 
 INSERT INTO roles (name)
     VALUES
-    ('Lead Engineer'),
+    ('Lead Engineer'),c
     ('Junior Engineer'),
     ('Team Manager/Moral Support'),
     ('Head Salesman'),
