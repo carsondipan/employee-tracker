@@ -1,61 +1,37 @@
---ENGINEERING--
-    -- Lead Engineer --
-        -- Sallah --
-    -- Junior Engineer --
-        -- Henry Jones (junior) --
-    -- Team Manager/Moral Support --
-        -- Henry Jones (senior) --
--- MARKETING --
-    -- Head Salesman --
-        -- Donnie Azof --
-    -- Salesman --
-        -- Chester Ming --
-    -- Marketing Manager
-        -- Jordan Belfort --
--- HUMAN RESOURCES --
-    -- HR Head --
-        -- Gerald Lambeau --
-    -- HR Rep --
-        -- Sean Maguire --
--- FINANCES --
-    -- CFO --
-        -- Warren Buffet --
-    -- Accountant --
-        -- Alex Mason --
-    -- Trash Man --
-        -- Elon Musk --
+use employee_db;
+
 
 INSERT INTO department (name)
     VALUES
     ('ENGINEERING'),
     ('MARKETING'),
     ('HUMAN RESOURCES'),
-    ('FINANCES'),
+    ('FINANCES');
 
-INSERT INTO roles (name)
+INSERT INTO role (title, salary, department_id)
     VALUES
-    ('Lead Engineer'),c
-    ('Junior Engineer'),
-    ('Team Manager/Moral Support'),
-    ('Head Salesman'),
-    ('Salesman'),
-    ('Marketing Manager'),
-    ('HR Head'),
-    ('HR Rep'),
-    ('CFO'),
-    ('Accountant'),
-    ('Trash Man'),
+    ('Lead Engineer' , 100000, 1),
+    ('Junior Engineer',  100000, 1),
+    ('Team Manager/Moral Support',  100000, 1),
+    ('Head Salesman', 100000, 1),
+    ('Salesman',  100000, 1),
+    ('Marketing Manager',  100000, 1),
+    ('HR Head',  100000, 1),
+    ('HR Rep',  100000, 1),
+    ('CFO',  100000, 1),
+    ('Accountant',  100000, 1),
+    ('Trash Man',  100000, 1);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-('Sallah', 'Shabati'),
-('Henry', 'Jones Jr.' ),
-('Henry', 'Jones senior'),
-('Donnie', 'Azof'),
-('Chester', 'Ming'),
-('Jordan', 'Belfort'),
-('Gerald', 'Lambeau'),
-('Sean', 'Maguire'),
-('Warren', 'Buffet'),
-('Alex', 'Mason'),
-('Elon', 'Musk'),
+('Sallah', 'Shabati', 12, 1),
+('Henry', 'Jones Jr.',  12, 1 ),
+('Henry', 'Jones senior',  12, 1),
+('Donnie', 'Azof',  12, 1),
+('Chester', 'Ming',  12, 1),
+('Jordan', 'Belfort',  12, 1),
+('Gerald', 'Lambeau',  12, 1),
+('Sean', 'Maguire',  12, 1),
+('Warren', 'Buffet',  12, 1),
+('Alex', 'Mason',  12, 1),
+('Elon', 'Musk',  12, 1);
